@@ -1,0 +1,7 @@
+#mylist {
+    display: none;
+}
+
+#mylist.show {
+    display: block;
+}

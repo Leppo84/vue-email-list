@@ -14,6 +14,11 @@ const mayL = new Vue ({
                 console.log(mailThat);
                 this.mailAddress = mailThat;
                 this.mailList.push(mailThat);
+                let myUl = document.getElementById("mylist");
+                let myLi = document.createElement("li");
+                myLi.append(mailThat);
+                myUl.append(myLi);
+
             });
         }
     }
